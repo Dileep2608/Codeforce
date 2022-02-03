@@ -1,4 +1,4 @@
-t = int(input())
+"""t = int(input())        #this exceeds time limit
 if 1 <= t <= 10**4:
     for i in range(t):
         n = int(input())
@@ -10,10 +10,12 @@ if 1 <= t <= 10**4:
                 a = a-1
                 b = b+1
                 count = count+1
-            print(count)
+            print(count)"""      
 
 
 
-
-
+t = int(input())
+for i in range(t):
+    n = int(input())
+    print((n-1)//2)
 
